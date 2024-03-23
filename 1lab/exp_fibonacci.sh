@@ -24,3 +24,12 @@ do
 done
 end_py=$(date +%s)
 Calcular_tiempo $start_py $end_py
+
+ls -l exp_fibonacci.sh
+mkdir lab1
+mv fibo lab1/
+mv fibonacci.py lab1/
+mv exp_fibonacci.sh lab1/
+
+cd lab1
+chmod 700 exp_fibonacci.sh
